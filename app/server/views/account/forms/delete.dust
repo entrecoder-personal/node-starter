@@ -1,0 +1,11 @@
+
+<form id="account-delete" action="/account/delete" class="form-s" method="POST">
+	<input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+    <p class="col-sm-offset-3 col-sm-4">You can delete your account, but keep in mind this action is irreversible.</p>
+    <input type="hidden" name="_csrf"/>
+    <div class="col-sm-offset-3 col-sm-4">
+      <button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i>Delete my account</button>
+    </div>
+  </div>
+</form>

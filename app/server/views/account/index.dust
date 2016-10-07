@@ -1,0 +1,26 @@
+
+{>layout/}
+
+{<scripts}
+<script>
+requirejs(['main'],function(){
+  requirejs(['view/account']);
+});
+</script>
+{/scripts}
+
+{<content}
+<div id="main">
+	<div class="container overflow">
+		<div class="g25 pl">
+    		{>"account/menu"/}
+		</div>
+		<div class="g75 pl"> 
+			<div class="w5 pad-all mrg-l"> 
+    			<h2>Account</h2>
+          Profile details
+			</div>
+		</div>
+   </div>
+</div>
+{/content}

@@ -1,0 +1,20 @@
+{>layout/}
+
+{<content}
+<div id="main">
+  <div class="container overflow">
+		<div class="g100">
+			<div class="g50 pl">
+			  <h1>About</h1>
+			  
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum neque ut viverra tincidunt. Mauris est dolor, congue id volutpat eleifend, vulputate in urna. Ut eu ullamcorper ex. Vestibulum in nisl pulvinar risus faucibus consequat. Ut convallis ante ut semper commodo. Fusce ut dolor varius, imperdiet metus a, elementum dui. Curabitur posuere lacinia purus at vehicula. Cras vel justo pellentesque, scelerisque est et, ornare ligula. 
+			  </p>
+			  <p>
+			  Proin felis est, condimentum at nulla consectetur, placerat fermentum metus. Quisque ac dolor tellus. Nam non tortor maximus nisl rhoncus malesuada. Ut bibendum nisi leo, at eleifend libero efficitur eu.
+			  </p>
+			  
+			</div>
+		</div>
+	</div>
+</div>
+{/content}

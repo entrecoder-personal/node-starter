@@ -1,0 +1,67 @@
+
+<form id="account-profile" action="/account/profile" method="POST" class="form-s" enctype="multipart/form-data">
+  <input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+    <div class="input-row">
+    <label for="avatar">Avatar</label>
+    <div id="avatar">
+    <div class="input-data pl mrg-r">
+      <img src="{?profile.avatar}{file_store}{profile.pid}/{profile.avatar}{:else}/images/avatar.png{/profile.avatar}" width="100" height="100" class="profile"/></div>
+      <div class="w3 pr"><input type="file" name="avatar"/></div>
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="username">Username</label>
+    <div class="input-data">
+      <input type="text" name="username" id="username" value="{profile.username}" />
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="name">Name</label>
+    <div class="input-data">
+      <input type="text" name="name" id="name" value="{profile.name}"/>
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="location">Location</label>
+    <div class="input-data">
+      <input type="text" name="location" id="location" value="{profile.location}"/>
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="website">Website</label>
+    <div class="input-data">
+      <input type="text" name="website" id="website" value="{profile.website}"/>
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="desc">Description</label>
+    <div class="input-data">
+      <textarea type="text" name="bio" id="desc">{profile.bio}</textarea>
+    </div>
+  </div>
+  <h3>Social Profile</h3>
+  <div class="input-row">
+    <label for="instagram">Instagram</label>
+    <div class="input-data">
+      <input type="text" name="instagram" id="instagram" value="{profile.social_instagram}"/>
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="twitter">Twitter</label>
+    <div class="input-data">
+      <input type="text" name="twitter" id="twitter" value="{profile.social_twitter}"/>
+    </div>
+  </div>
+  <div class="input-row">
+    <label for="facebook">Facebook</label>
+    <div class="input-data">
+      <input type="text" name="facebook" id="facebook" value="{profile.social_facebook}"/>
+    </div>
+  </div>
+  <div class="input-row">
+    <div class="input-data pc g50">
+      <button type="submit" class="btn btn-a"><i class=""></i>Update</button>
+    </div>
+  </div>
+</form>

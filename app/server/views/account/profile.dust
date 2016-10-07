@@ -1,0 +1,27 @@
+
+{>layout/}
+
+{<scripts}
+<script>
+requirejs(['main'],function(){
+  requirejs(['view/account_profile']);
+});
+</script>
+{/scripts}
+
+{<content}
+<div id="main">
+  <div class="container">
+    <div class="g25 pl">
+      {>"account/menu"/}
+    </div>
+    <div class="g75 pl"> 
+      <div class="w5 pad-all mrg-l">  
+        <h2>Profile</h2>
+        {>"widgets/message"/}
+        {>"account/forms/profile"/}
+      </div>
+    </div>
+  </div> 
+</div>  
+{/content}

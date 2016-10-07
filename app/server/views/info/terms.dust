@@ -1,0 +1,20 @@
+{>layout/}
+
+{<content}
+<div id="main">
+  <div class="container overflow">
+		<div class="g100">
+			<div class="g50 pl">
+				<h1>Terms of Use</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in lorem justo. Donec quis suscipit elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce porta velit metus, eget interdum dolor fermentum sagittis. Proin ultricies ipsum sed egestas varius. Praesent efficitur accumsan tristique. Morbi vitae vulputate tortor. Quisque accumsan maximus neque, et luctus nisl dictum vitae. Nullam imperdiet dolor vel tincidunt porttitor. Praesent imperdiet odio sit amet sagittis hendrerit. Aenean felis dolor, viverra et tempus in, fermentum vel leo. Sed sed elit eget arcu lacinia aliquet. Duis vel efficitur magna, eget hendrerit ante. Pellentesque eleifend neque nulla, ac auctor mi pulvinar vitae. Proin laoreet turpis mi. Phasellus blandit tincidunt nulla at feugiat.
+				</p>
+				<p>
+				Cras eget tortor tortor. Nunc mi orci, pellentesque nec lacus et, semper vestibulum tellus. Suspendisse volutpat eros ultricies enim blandit, non blandit nunc dictum. In sed leo lorem. Suspendisse porttitor neque sit amet ultricies tristique. Quisque congue urna eget sem sollicitudin, a egestas mauris molestie. Pellentesque a tellus leo.
+				</p><p>
+				Suspendisse enim nibh, bibendum a enim a, tincidunt venenatis dolor. Integer porta tristique ante, nec euismod dui porttitor non. Quisque varius, ex vel ultricies efficitur, velit lorem efficitur metus, quis cursus ex diam non mi. Proin non vehicula ipsum. Pellentesque mattis arcu nulla, ut accumsan leo faucibus vitae. Donec volutpat dolor pellentesque quam efficitur sagittis. Praesent sit amet semper augue. Cras at lacus nec leo faucibus sollicitudin imperdiet blandit neque.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+{/content}

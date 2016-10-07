@@ -1,0 +1,18 @@
+
+<form id="contact" name="contact" class="form-s" method="post" action="/contact">
+  <input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+      <div class="input-data"><input type="text" autocomplete="off" id="name" placeholder="Name" name="c[name]" maxlength="30"/></div>
+  </div>
+  <div class="input-row">
+      <div class="input-data"><input type="text" autocomplete="off" id="email" placeholder="Email" name="c[email]"/></div>
+  </div>
+  <div class="input-row">
+     <div class="input-data"><textarea autocomplete="off" id="comment"  name="c[comment]" placeholder="Comments"/></textarea></div>
+  </div>
+  <div class="input-row">
+      <div class="input-data pl g50">
+          <button type="submit" class="btn btn-a">Send</button>
+      </div>
+  </div>
+</form>

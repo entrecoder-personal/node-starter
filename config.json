@@ -1,0 +1,100 @@
+{
+  "site": {
+    "name": "official site name",
+    "title": "site title",
+    "description": "site description"
+  },
+  "development": {
+    "port": 4000,
+    "http": "http://localhost:4000/",
+    "https": "https://localhost/",
+    "image_store": "http://localhost:4000/images/",
+    "file_store": "http://localhost:4000/people/",
+    "upload_dir":"./app/protected/people/",
+    "mongo": {
+      "url": "mongodb://localhost/entrecoder-starter", 
+      "db": "db-name-here",
+      "autoReconnect": true,
+      "clear_interval": 3600
+    }
+  },
+  "production": {
+    "port": 443,
+    "http": "http://www.website-name-here.com",
+    "https": "https://www.website-name-here.com",
+    "image_store": "http://www.website-name-here.com/images/",
+    "mongo": {
+      "url": "mongodb://production/db-name-here", 
+      "db": "db-name-here",
+      "autoReconnect": true,
+      "clear_interval": 3600
+    }
+  },
+  "session": {
+    "secret": "enter-secret-for-sessions"
+  },
+  "messages": {
+    "signin": {   
+      "error": {
+        "username": "Username and/or password is incorrect",
+        "email": "Email and/or password is incorrect",
+        "password": "Enter a password"
+      }
+    },
+    "signup": {   
+      "blacklist_usernames": ["home","about","terms","termsofuse","privacy","advertise","contact","jobs","help","support","faq","notifications","blog","api","settings","account","profile","signout","logout","login","signin","signup","topic","topics","opinion","opinions","trending","news","status","api","advertise","user","admin","friends","messages"],
+      "email_subject": "Welcome to official site name",
+      "email_body": "Welcome,",
+      "error": {
+        "taken_email": "Email already taken",
+        "taken_username": "Username already taken",
+        "first_name": "Enter a valid first name (A-z)",
+        "last_name": "Enter a valid last name (A-z)",
+        "password": "Enter a password",
+        "password_characters": "Password between 6 and 64 characters",
+        "password_match": "Passwords do not match",
+        "email": "Enter a valid email",
+        "signup": "Could not create account at this moment, try again later..."
+      },
+      "success": { 
+        "email_available": "Email is available",
+        "done": "You have successfully signed up, check your email to activate your account"
+      }
+    },
+    "forgot": {
+      "email_subject": "Forgot your password",
+      "error": {
+        "email": "Email cannot be found",
+        "invalid_token": "Password reset key is invalid or has expired.",
+        "password": "Current password does not match our records, try again"
+      },
+      "success": {
+        "password_updated": "You have successfully updated your password",
+        "password_instructions_sent": "Check your email! Password reset instructions have been sent."
+      }
+    },
+    "activate": {
+      "email_subject": "Activate your account",
+      "email_body": "To activate your Account, follow link:",
+      "error": {
+        "general": "Error with activation, please try again later",
+        "code": "Error with activation code, please try again",
+        "not_found": "Cannot find your registration details, try again later"
+      },
+      "success": {
+        "done": "You have successfully activated your account"
+      }
+    },
+    "profile": {
+      "error": {
+        "general": "Error Updating Profile, try again later..."
+      },
+      "success": {
+        "done": "Your Profile has been updated successfully!"
+      }
+    },
+    "error": {
+      "system": "System error, we are working hard to fix it"
+    }
+  }
+}

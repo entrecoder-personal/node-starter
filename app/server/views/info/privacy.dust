@@ -1,0 +1,18 @@
+{>layout/}
+
+{<content}
+<div id="main">
+  <div class="container overflow">
+		<div class="g100">
+			<div class="g50 pl">
+				<h1>Privacy</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu luctus libero. Morbi interdum, nisl id ultrices efficitur, leo erat ultricies purus, ac aliquet justo lorem vel arcu. Nunc aliquet, urna sed tempor finibus, arcu ex varius ex, sit amet condimentum ex magna eget ipsum. Integer vestibulum ipsum quis nisi molestie, a facilisis lectus hendrerit. Vestibulum auctor pellentesque aliquet. Sed posuere porta metus, vel sodales leo rutrum non. Aenean in finibus metus, a gravida eros. Donec rhoncus odio id risus ultrices, in rutrum ex ullamcorper. Suspendisse sit amet ipsum quis eros congue euismod in ut leo. Nam consequat at risus eget pulvinar.
+				</p><p>
+				Nam pharetra tristique ex, at auctor dolor commodo eu. Sed at laoreet lacus. In pretium dignissim tortor, in condimentum libero lacinia sed. Maecenas luctus ipsum nisi, eget congue ex posuere id. Suspendisse sit amet turpis urna. Fusce sit amet dictum libero. In hac habitasse platea dictumst. Proin massa metus, tincidunt nec leo eget, scelerisque lobortis odio. Proin mattis dictum porttitor.
+				</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+{/content}

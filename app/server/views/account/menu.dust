@@ -1,0 +1,9 @@
+
+<h2>Settings</h2>
+<div class="w1 pad-a mrg-t"> 
+	<ul>
+		<li><a href="/account">Account</a></li>
+		<li><a href="/account/profile">Profile</a></li>
+		<li><a href="/account/password">Password</a></li>
+	</ul>
+</div>

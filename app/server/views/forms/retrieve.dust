@@ -1,0 +1,15 @@
+<form id="retrieve" name="retrieve" class="form-s" method="post" action="/retrieve">
+  <input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+      <div class="input-title">New Password</div>
+      <div class="input-data"><input type="password" autocomplete="off" id="password" name="password" maxlength="64"/></div>
+  </div>   
+  <div class="input-row">
+      <div class="input-title">Re-enter Password</div>
+      <div class="input-data"><input type="password" autocomplete="off" id="passwordv" name="password_repeat" maxlength="64"/></div>
+  </div>  
+  <div class="input-row">
+  	<input name="challenge" type='hidden' value="{#key}{key}{/key}"/>
+      <button type="submit" class="btn btn-a">Continue</button>
+  </div>
+</form>

@@ -1,0 +1,10 @@
+<form id="forgot" name="forgot" class="form-s" method="post" action="/forgot">
+  <input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+      <div class="msg"><p class="msg_un"></p></div>
+      <div class="input-data"><input type="text" autocomplete="off" id="email" placeholder="Enter email" name="email"/></div>
+  </div>    
+  <div class="input-row">
+      <button type="submit" class="btn btn-a">Continue</button>
+  </div>
+</form>

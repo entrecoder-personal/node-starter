@@ -1,0 +1,23 @@
+{>layout/}
+
+{<scripts}
+<script>
+requirejs(['main'],function(){
+  requirejs(['js/view/contact']);
+});
+</script>
+{/scripts}
+
+{<content}
+<div id="main">
+  <div class="container overflow">
+		<div class="g100">
+			<div class="g50">
+		    <h1>Contact Us</h1>
+		    {>"widgets/message.dust"/}
+        	{>"forms/contact.dust"/}
+			</div>
+		</div>
+	</div>
+</div>
+{/content}

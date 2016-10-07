@@ -1,0 +1,54 @@
+{
+  "name": "name",
+  "description": "site description",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "author": "author name",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha --reporter spec --timeout 5000"
+  },
+  "dependencies": {
+    "async": "latest",
+    "body-parser": "latest",
+    "connect-flash": "latest",
+    "connect-mongo": "latest",
+    "consolidate": "latest",
+    "cookie-parser": "latest",
+    "dustjs-helpers": "latest",
+    "dustjs-linkedin": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "express-validator": "latest",
+    "lodash": "latest",
+    "lusca": "latest",
+    "mariasql": "latest",
+    "method-override": "latest",
+    "mime": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "multer": "latest",
+    "mysql": "latest",
+    "nconf": "latest",
+    "nodemailer": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "request": "latest",
+    "sequelize": "latest",
+    "sequelize-cli": "latest",
+    "serve-favicon": "latest",
+    "tedious": "latest",
+    "underscore": "latest",
+    "winston": "latest",
+    "winston-mongodb": "latest"
+  },
+  "engines": {
+    "node": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "latest",
+    "supertest": "latest"
+  }
+}

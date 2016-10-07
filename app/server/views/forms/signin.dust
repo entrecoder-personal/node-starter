@@ -1,0 +1,21 @@
+<form id="signin" name="signin" class="form-s" method="post" action="/signin">
+  <input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+    <div class="input-data">
+      <input type="text" autocomplete="on" id="username" placeholder="Email" name="username" value="{username_attempt}"/>
+      {#errors:username}<span class="err md pc">{username.msg}</span>{/errors}
+    </div>
+  </div>
+  <div class="input-row">
+    <div class="input-data">
+      <input type="password" autocomplete="off" id="password" placeholder="Password" name="password"/>
+      {#errors:password}<span class="err md pc">{password.msg}</span>{/errors}
+    </div>
+  </div>
+  <div class="input-row">
+    <a href="/forgot">Forgot Password?</a> 
+  </div>        
+  <div class="input-row">
+    <button type="submit" class="btn btn-a"> Sign in</button>
+  </div>
+</form>

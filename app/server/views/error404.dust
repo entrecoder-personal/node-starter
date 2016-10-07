@@ -1,0 +1,20 @@
+{>layout/}
+
+{<content}
+<div id="main">
+    <div class="container">
+		<div class="g100 center">
+			<div class="w6 pc">
+				<div class="info-box">
+					<div class="g100 logo pc"><a href="/">{>logo/}</a></div>
+					<h1>404 Error</h1>
+					<br/>
+					<h2>Oops something is wrong, we cannot find this page!</h2>
+					<br/>
+					<a href="{site.url}">return to home</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{/content}

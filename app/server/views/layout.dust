@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{site_title}</title>
+    <meta name="description" content="{site_description}">
+    <link rel="Shortcut Icon" href="{site_url}images/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="{site_url}css/base.css">
+    <link type="text/css" rel="stylesheet" href="{site_url}css/style.css">
+    <link type="text/css" rel="stylesheet" href="{site_url}css/vendor/jquery/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="{site_url}css/vendor/jquery/jquery.dropdown.css">
+    <!-- <link type="text/css" rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"> -->
+    <script data-main="{site_url}js/main" src="{site_url}js/vendor/require/require.js"></script>
+    {+scripts}{/scripts}
+  </head>
+  <body>
+    <div class="wrap">
+      {+header}{>header/}{/header}
+      {+content} {/content}
+      {+footer}{>footer_global/}{/footer}
+    </div>
+  </body>
+</html>

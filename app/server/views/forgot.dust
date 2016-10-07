@@ -1,0 +1,28 @@
+{>layout/}
+
+{<scripts}
+<script>
+requirejs(['main'],function(){
+  requirejs(['view/forgot']);
+});
+</script>
+{/scripts}
+
+{<header} {/header}
+
+{<content}
+<div id="main">
+    <div class="container">
+        <div class="w3 pc center">
+            <div class="signbox overflow"> 
+                <div class="g100 logo pc">{>logo/}</div>
+                <div class="g100">
+                    <h3>Change your password</h3>
+                    {>"widgets/message.dust"/}
+                    {>"forms/forgot.dust"/}
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+{/content}

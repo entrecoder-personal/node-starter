@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="pl"> 
+    {>"logo.dust"/} 
+    </div>   
+    <div class="nav">
+      <ul>
+        <li><a href="{$root}"></a></li>
+      </ul>
+    </div>
+    <div id="nav">
+      <ul class="nav user-actions">
+        {?user}
+       
+        <script>
+        requirejs(['main'],function(){
+          requirejs(['view/home']);
+        });
+        </script>
+
+        <li><a href="/profile"></a></li>
+        <li>
+          <a href="#" id="account">{user.email}</a>
+          <div id="account-edit" class="dropdown dropdown-relative dropdown-tip has-icons" role="menu">
+            <ul class="dropdown-menu" >
+              <li class="account"><a href="/account">Account</a></li>
+              <li class="dropdown-divider"></li>
+              <li class="signout"><a href="/signout">Sign out</a></li>
+            </ul>
+          </div>
+        </li>
+        {:else}
+        <li><a href="/signup">Sign Up</a></li>
+        <li><a href="/signin">Sign In</a></li>
+        {/user}
+      </ul>
+    </div>   
+  </div>

@@ -1,0 +1,17 @@
+<div class="msg-box">
+	{#error}
+	<div class="alert b-error"> 
+	  {error}
+	</div>
+	{/error}
+	{#success}
+	<div class="alert b-success"> 
+	  {success}
+	</div>
+	{/success}
+	{#warning}
+	<div class="alert b-warning"> 
+	  {warning}
+	</div>
+	{/warning}
+</div>

@@ -1,0 +1,32 @@
+<form id="signup" name="signup" class="form-s" method="post" action="/signup">
+  <input type='hidden', name='_csrf', value="{_csrf}"/>
+  <div class="input-row">
+    <div class="input-data"><input type="text" autocomplete="off" id="fname" placeholder="First name" name="name_first" onfinishinput="val_fn()" maxlength="30" value="{valid.name_first}"/>
+    {#errors:name_first}<span class="err md pc">{name_first.msg}</span>{/errors}
+    </div>
+  </div>
+  <div class="input-row">
+    <div class="input-data"><input type="text" autocomplete="off" id="lname" placeholder="Last name" name="name_last" onfinishinput="val_ln()" maxlength="30"/>
+    {#errors:name_last}<span class="err md pc">{name_last.msg}</span>{/errors}
+    </div>
+  </div>
+  <div class="input-row">
+    <div class="input-data"><input type="text" autocomplete="off" id="email" placeholder="Email" name="email" onfinishinput="val_em()"/>
+    {#errors:email}<span class="err md pc">{email.msg}</span>{/errors}
+    </div>
+  </div>
+  <div class="input-row">
+    <div class="input-data"><input type="password" autocomplete="off" id="password" placeholder="Password" name="password" onfinishinput="val_pw()" maxlength="64"/>
+    {#errors:password}<span class="err md pc">{password.msg}</span>{/errors}
+    </div>
+  </div>
+  <div class="input-row">
+    <div class="input-data"><input type="password" autocomplete="off" id="passwordv" placeholder="Confirm Password" name="passwordv" onfinishinput="val_pwv()" maxlength="64"/>{#errors:passwordv}<span class="err md pc">{passwordv.msg}</span>{/errors}</div>
+  </div>
+  <div class="input-row">
+     <p class="copyright pl">By signing up you agree to our <a href="/privacy" target="_blank">Privacy Policy</a> and <a href="/terms" target="_blank">Terms of Use</a></p>
+  </div>
+  <div class="input-row">
+    <button type="submit" class="btn btn-a">Sign Up</button>
+  </div>      
+</form>

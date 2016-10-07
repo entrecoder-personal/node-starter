@@ -1,0 +1,26 @@
+{>layout/}
+
+{<scripts}
+<script>
+requirejs(['main'],function(){
+  requirejs(['view/retrieve']);
+});
+</script>
+{/scripts}
+
+{<content}
+<div id="main">
+  <div class="container overflow">
+    <div class="g100 center">
+      <div class="w3 pc">
+        <div class="signbox">
+          <div class="g100 logo pc">{>logo/}</div>
+          <h2>Create a new password</h2>
+          {>"widgets/message"/}
+          {>"forms/retrieve"/}
+	       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/content}

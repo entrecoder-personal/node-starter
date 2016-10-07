@@ -1,0 +1,27 @@
+{>layout/}
+
+{<scripts}
+<script>
+requirejs(['main'],function(){
+  requirejs(['view/profile']);
+});
+</script>
+{/scripts}
+
+{<content}
+<div id="main">
+  <div class="container">
+    <div class="g100 center">
+      <div class="w3 pc">   
+        <div class="info-box">
+          <div class="signbox"> 
+	        	<h2>Profile</h2>
+	          {>"widgets/message"/}
+	          {>"forms/profile"/}
+	        </div>
+				</div>
+			</div>
+		</div>
+	</div> 
+</div>	
+{/content}

@@ -1,0 +1,91 @@
+{>layout/}
+
+{<content}
+ <div id="main">
+  <div class="container overflow">
+    <div class="g100">
+      <div class="g50">
+        <h1>Prototype</h1>
+        <p>Prototype allows you to create things</p>
+      </div>
+      <div class="g50">
+        <h1>Side Bar</h1>
+        <p>Side things</p>
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g10 cg pad-a center">
+        10%
+      </div>
+      <div class="g90 cg pad-a center">
+        Grid 90%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g25 cg pad-a center">
+        Grid 25%
+      </div>
+      <div class="g25 cg pad-a center">
+        Grid 25%
+      </div>
+      <div class="g25 cg pad-a center">
+        Grid 25%
+      </div>
+      <div class="g25 cg pad-a center">
+        Grid 25%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g50 cg pad-a center">
+        Grid 50%
+      </div>
+      <div class="g50 cg pad-a center">
+        Grid 50%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g33 cg pad-a center">
+        Grid 33%
+      </div>
+      <div class="g33 cg pad-a center">
+        Grid 33%
+      </div>
+      <div class="g33 cg pad-a center">
+        Grid 33%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g20 cg pad-a center">
+        Grid 20%
+      </div>
+      <div class="g80 cg pad-a center">
+        Grid 80%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g30 cg pad-a center">
+        Grid 30%
+      </div>
+      <div class="g70 cg pad-a center">
+        Grid 70%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g40 cg pad-a center">
+        Grid 40%
+      </div>
+      <div class="g60 cg pad-a center">
+        Grid 60%
+      </div>
+    </div>
+    <div class="g100">
+      <div class="g50 cg pad-a center">
+        Grid 50%
+      </div>
+      <div class="g50 cg pad-a center">
+        Grid 50%
+      </div>
+    </div>
+  </div>
+</div>
+{/content}

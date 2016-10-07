@@ -1,0 +1,423 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+  color: #2f2f2f;
+  font-size: 14px;
+  height:100%;
+}
+
+form {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ margin: 10px 0px 5px 0px;
+ padding: 0px;
+}
+
+ul { list-style-type: none; margin: 0; padding:0;}
+
+.center {
+  text-align: center;
+}
+
+a:link {color: #3d6bc9; text-decoration:none;} 
+a:hover {color: #3d6bc9;}
+a:visited {color: #3d6bc9; text-decoration: none; }
+   
+.wrapper {
+  margin: auto;
+  width: 950px;
+}
+
+.form-s {
+
+}
+
+.header { 
+  background-color: #181818;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+} 
+
+.header-fixed { 
+  background-color: #181818;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 3px solid #f4f4f4;
+} 
+
+.wrap {
+  position: relative;
+  margin: auto;
+  min-height: 100%;
+  background: #fff;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.nav {
+  display: block;
+  padding: 25px 0;
+  z-index: 100;
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.nav.user-actions>li { 
+  display: inline-block; 
+  height: 25px;
+}
+
+.nav>li {
+  float: left;
+}
+
+.nav>li .icon { 
+  position: relative;
+  margin-right: 22px; 
+  width: 22px;
+  height: 25px;
+}
+
+.nav.user-actions>li>a, .nav.user-actions>li>span {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  height: 100%;
+  margin-right: 15px;
+}
+
+
+#main {
+  min-height: 500px;
+}
+
+#main p, h1{
+  margin-bottom: 13px;
+}
+
+#footerGlobal {
+  width:100%;
+  height: 50px;
+  border-top: 1px solid #ccc;
+  position: relative;
+  text-align: center;
+  padding: 25px;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #ccc;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.footer ul {
+  margin: auto;
+} 
+
+.footer li {
+  font-size: 13px;
+  float: left;
+  margin-right: 15px;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.container {
+  margin: auto;
+  width: 1040px;
+}
+
+.search {
+  width: 500px;
+  height: 50px;
+  vertical-align: middle;
+  margin: 50px auto 50px auto;
+}
+
+.searchbox {
+  width: 420px;
+  height: 100%;
+  float: left;
+  outline: none;
+  border: 1px solid #888;
+  font-size: 14px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  padding: 8px 8px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+}
+
+.search button {
+  width: 80px;
+  float: right;
+}
+
+.logo{
+  width: 200px;
+  font-size: 25px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.loading {
+  position: absolute;
+  top: 100px;
+  left: 190px;
+  z-index: 100;
+  display: none;
+}
+
+.btn-c {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+a.btn-a, .btn-a {
+  color: #fff;
+  background-color: #6382d2;
+  border-radius: 4px;
+}
+
+a.btn-s, .btn-s {
+  height: 35px;
+  color: #fff;
+  background-color: #6382d2;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.btn {
+  outline: none;
+  width: 100%;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.btn-a:hover {
+  background-color: #3d6bc9;
+  color: #ebebeb;
+}
+
+.btn-a:active {
+  background-color: #3d6bc9;
+  color: #fff;
+}
+
+.btn-load-more {
+  clear: both;
+  border-color: #d3d3d3;
+  background: #f8f8f8;
+  color: #333;
+  height: 28px;
+  border: solid 1px transparent;
+  padding: 0 10px;
+  outline: 0;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  line-height: normal;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+.signbox {
+  padding: 15px;
+}
+
+.signbox a {
+color: #3d6bc9;
+}
+
+.signbox-info {
+  background: #f4f4f4;
+  color: #000;
+  padding: 15px;
+  margin: 15px 0px 0px;
+}
+
+.signbox-info a {
+  color: #3d6bc9;
+}
+
+.signbox h1{
+  font-size: 32px;
+  margin-bottom: 25px;   
+}
+
+.signbox h2{
+  font-size: 24px;
+  margin-bottom: 25px;   
+}
+
+.signbox button:hover {
+  background-color: #3d6bc9;
+}
+
+.login {
+  margin: 15px auto;
+  padding: 25px;
+  width: 520px;
+  background: #fff;
+}
+
+.input-row {
+  position: relative;
+  margin-top: 15px;
+  overflow: hidden;
+}     
+
+.input-row .input-title {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #4d4d4d;
+}
+
+.input-data input, select, textarea {
+    font-size: 13px;
+    padding: 8px 8px;
+    height: 38px;
+    background: #f5f5f5;
+    border: 1px #ccc solid;
+    width: 100%;
+}
+
+.input-data textarea {
+  width: 100%;
+  min-height: 100px;
+}
+
+
+.input-data-long input {
+  width: 450px;
+} 
+
+.input-data-long textarea {
+  width: 97%;
+  min-height: 200px;
+  padding: 7px;
+    
+} 
+
+.msg {
+  font-size: 12px;
+  position: absolute;
+  margin-top: 20px;
+  left: 270px;
+  width: 250px;
+}
+
+.good {
+  color: #009900;
+}
+
+.err {
+  color: #ff0000;
+  margin-top: 3px;
+}
+
+.err-field {
+  background: #ff0000; 
+}
+
+.error-box {
+  /* border: 1px solid #ff0000; */
+  width: 260px;
+  height: 25px;
+  padding-top: 10px;
+  background: #f49b9b;
+  border: 1px solid #fb5757;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.alert {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.b-error {
+  background: #d16e5e;
+}
+
+.b-success {
+  background: #5cb85c;
+}
+
+.b-warning {
+  background: #e0b235;
+}
+
+#menu ul li a {
+  position: relative;
+  margin-top: 16px;
+  display: block;
+  margin-left: 6px;
+  line-height: 24px;
+  padding-left: 10px;
+  background: #f6f6f6;
+  z-index: 9999;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  width: 130px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.copyright a{
+  color: #476aee;
+}
+
+.error .info {
+  font-size: 12px;
+  color: #ff0000;
+}

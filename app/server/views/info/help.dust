@@ -1,0 +1,19 @@
+{>layout/}
+
+{<content}
+<div id="main">
+  <div class="container overflow">
+		<div class="g100">
+			<div class="g50 pl">  
+		    <h1>Help</h1>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at urna tristique, condimentum sem in, mollis felis. Duis pellentesque vel turpis et ultrices. Proin facilisis sem vel enim posuere, at euismod nulla tristique. Quisque consequat felis ipsum, nec ultrices neque sagittis id. Nunc non urna eu nunc vestibulum venenatis. Aenean in commodo turpis. Suspendisse sapien tellus, ultrices vel tempus sed, blandit ac diam. Etiam non iaculis purus, vel tincidunt felis.
+		    </p><p>
+			Morbi cursus eu nulla quis iaculis. In hac habitasse platea dictumst. Proin id leo non enim faucibus consectetur quis ut lorem. Nunc hendrerit, orci vel pharetra fringilla, turpis velit interdum dolor, eu elementum lacus ipsum id mi. Proin fermentum nisi a dictum volutpat. Praesent ac sapien leo. Quisque non convallis sem, nec ultricies turpis. Nunc justo lacus, euismod vitae arcu id, dapibus dapibus ante. Pellentesque lobortis tempus dolor fringilla ornare.
+			</p><p>
+			Morbi erat risus, consectetur eget convallis vitae, maximus eu ante. Cras ullamcorper diam id nisi imperdiet, in laoreet lacus luctus. Proin vitae lectus est. Phasellus a mollis lorem, nec ultricies dolor. Proin elit odio, pretium eu nibh a, vehicula porta risus. Phasellus consectetur, lectus ut bibendum efficitur, turpis magna facilisis quam, eget fringilla libero nibh et sapien. Etiam ut risus sit amet elit egestas condimentum. Cras luctus enim a augue vestibulum, ut egestas ligula finibus. Praesent ut libero lacus. Nullam ac erat a dolor semper tempus in sed urna. Duis vitae diam id est tempor dignissim. Integer egestas iaculis ornare.
+			</p>
+			</div>
+		</div>
+	</div>
+</div>
+{/content}

@@ -1,0 +1,22 @@
+{>layout/}
+
+{<header} {/header}
+
+{<content}
+<div id="main">
+	<div class="container">
+		<div class="g100 center">
+		    <div class="w3 pc">
+		        <div class="info-box">    
+		        	<div class="signbox">
+			        	<div class="g100 logo pc">{>logo/}</div>
+			        	<div class="g100">{>"widgets/message"/}</div>
+			            <br/>
+						<a href="{site_url}">return to home</a>
+					</div>
+				</div>
+	       </div>
+	    </div>  
+	</div>
+</div>
+{/content}
