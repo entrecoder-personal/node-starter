@@ -8,11 +8,12 @@ Whether you are learing to code, building a prototype or write a scalable app fo
 I started this project because I was teaching Node.js, but my students had a hard time learning conventions such as routing, controllers, views, validation, AJAX and front-end frameworks. It was easier for them to simply study an example and use it as a base to build real projects upon. Node.js is evolving so fast, that if you spend too much time trying to understand each framework and NPM module, you will never get your prototype off the ground. 
 
 ## Node.js Development Stack
-
-Back-end            | Express framwork Node.js
-Front-end           | J-Query, HTML, CSS
-Application Database| Postgres
-Statistics Database | MongoDB 
+| Component           | Technology                |
+|---------------------|---------------------------|
+| Back-end            | Express framwork Node.js  |
+| Front-end           | J-Query, HTML, CSS        |
+| Application Database| Postgres                  |
+| Statistics Database | MongoDB                   |
 
 
 Project Folder Structure
