@@ -1,7 +1,26 @@
 
 # EntreCoder Node Starter
 
-This is a node starter website for developers to build their projects upon. 
+This is a node starter website for developers to build their projects upon.
+
+If you need to build a quick prototype, win a hackathon or write a scalable app for your startup, you need a place to start. Even expereinced developers come to Node.js they can't figure out where to start. Node.js is by far the fastest growing programming language, adding over 400 modules (plugins) a data totalling over 300,000. The reason for this is simple, its JavaScript, its the language of the browser and now has a backend framework to match. 
+
+I started this project because I was teaching Node.js, but students had a hard time learning conventions such as routing, controllers, views, validation, AJAX and front-end design. It was easier for them to simply study an example and use it as a base to build real projects upon. Node.js is evolving so fast, that if you spend too much time trying to understand each framework and NPM module, you will never get your prototype off the ground. 
+
+## Node.js Development Stack
+
+Back-end            | Express framwork Node.js
+Front-end           | J-Query, HTML, CSS
+Application Database| Postgres
+Statistics Database | MongoDB 
+
+
+Project Folder Structure
+-----------------
+
+| Name                               | Description                                                  |
+| ---------------------------------- | ------------------------------------------------------------ |
+
 
 ##Prerequisites
 
